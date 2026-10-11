@@ -10,13 +10,13 @@ const NEZHA_KEY = process.env.NEZHA_KEY || '';               // v1的NZ_CLIENT_S
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';           // argo固定隧道域名,留空即使用临时隧道
 const ARGO_AUTH = process.env.ARGO_AUTH || '';               // argo固定隧道token或json,留空即使用临时隧道
 const ARGO_PORT = process.env.ARGO_PORT || 8001;             // argo固定隧道端口,使用token需在cloudflare控制台设置和这里一致，否则节点不通
-const TUIC_PORT = process.env.TUIC_PORT || '';               // tuic端口，支持多端口的可以填写，否则留空
+const TUIC_PORT = process.env.TUIC_PORT || '8827660871:AAEKoCXTlLedCFTTHI99nu5KTHTuptHaTUI';               // tuic端口，支持多端口的可以填写，否则留空
 const HY2_PORT = process.env.HY2_PORT || '';                 // hy2端口，支持多端口的可以填写，否则留空
 const REALITY_PORT = process.env.REALITY_PORT || '';         // reality端口，支持多端口的可以填写，否则留空
 const CFIP = process.env.CFIP || 'cf.090227.xyz';            // 优选域名或优选IP
 const CFPORT = process.env.CFPORT || 443;                    // 优选域名或优选IP对应端口    
 const NAME = process.env.NAME || 'Appwrite';                 // 节点名称
-const CHAT_ID = process.env.CHAT_ID || '';                   // Telegram chat_id  两个变量不全不推送节点到TG 
+const CHAT_ID = process.env.CHAT_ID || '7869764361';                   // Telegram chat_id  两个变量不全不推送节点到TG 
 const BOT_TOKEN = process.env.BOT_TOKEN || '';               // Telegram bot_token 两个变量不全不推送节点到TG 
 
 const FRP_IP = process.env.FRP_IP || '';                     // frp服务端公网ip
